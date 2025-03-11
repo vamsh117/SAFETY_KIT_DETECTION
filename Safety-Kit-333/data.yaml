@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4
+names: ['Goggles', 'Helmet', 'Jacket', 'Shoes']
+
+roboflow:
+  workspace: projects-ogrfg
+  project: safety-kit
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/projects-ogrfg/safety-kit/dataset/3
